@@ -12,7 +12,7 @@ public class Application {
         System.out.println("This program will print out whatever is returned by the Lab.sayHello method.");
         System.out.println("The current lab output: ");
 
-        Lab hello = new Lab("Hello, World");
+        Lab hello = new Lab();
         String output = hello.sayHello();
 
         System.out.println(output);
